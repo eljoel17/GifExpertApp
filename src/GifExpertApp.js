@@ -4,7 +4,7 @@ import { AddCategory } from './components/AddCategory';
 import { GifGrid } from './components/GifGrid';
 const GifExpertApp = () =>{
      
-    const [categorias, setcategorias] = useState(['Dragon ball']);
+    const [categorias, setcategorias] = useState(['']);
 
     /* const handleAdd = () =>{
         const valor = 'Michael Jackson';
@@ -15,7 +15,7 @@ const GifExpertApp = () =>{
     } */
     return(
         <>  
-        <h1> GifExpertApp</h1>
+        <h1> Busca un gif</h1>
         {/* Asi podemos llamar a componentes dentro de otros componentes */}
         <AddCategory setcategories={setcategorias}/>  
         <hr></hr>

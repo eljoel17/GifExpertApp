@@ -22,6 +22,7 @@ export const AddCategory = ({setcategories}) => {
         
         <form onSubmit={handleSumbit}>
         <input
+        placeholder="Ingrese..."
         type="text"
         value = {inputValue}
         onChange={handleInputChange}
