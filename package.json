@@ -2,7 +2,7 @@
   "name": "gif-expert-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://eljoel17.github.io/SearchGifs",
+  "homepage": "https://eljoel17.github.io/SearchGifsgi",
   
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
@@ -15,8 +15,6 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "build-and-docs": "react-scripts build && node create-docs.js",
