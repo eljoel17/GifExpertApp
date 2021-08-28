@@ -4,7 +4,7 @@ import { AddCategory } from './components/AddCategory';
 import { GifGrid } from './components/GifGrid';
 const GifExpertApp = () =>{
      
-    const [categorias, setcategorias] = useState(['']);
+    const [categorias, setcategorias] = useState(['homero simpson']);
 
     /* const handleAdd = () =>{
         const valor = 'Michael Jackson';
