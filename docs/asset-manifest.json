@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "./static/css/main.fe793640.chunk.css",
-    "main.js": "./static/js/main.44ee2a68.chunk.js",
-    "main.js.map": "./static/js/main.44ee2a68.chunk.js.map",
-    "runtime-main.js": "./static/js/runtime-main.d999946b.js",
-    "runtime-main.js.map": "./static/js/runtime-main.d999946b.js.map",
-    "static/js/2.056c045a.chunk.js": "./static/js/2.056c045a.chunk.js",
-    "static/js/2.056c045a.chunk.js.map": "./static/js/2.056c045a.chunk.js.map",
-    "index.html": "./index.html",
-    "static/css/main.fe793640.chunk.css.map": "./static/css/main.fe793640.chunk.css.map",
-    "static/js/2.056c045a.chunk.js.LICENSE.txt": "./static/js/2.056c045a.chunk.js.LICENSE.txt"
+    "main.css": "/GifExpertApp/static/css/main.fe793640.chunk.css",
+    "main.js": "/GifExpertApp/static/js/main.9bf8c850.chunk.js",
+    "main.js.map": "/GifExpertApp/static/js/main.9bf8c850.chunk.js.map",
+    "runtime-main.js": "/GifExpertApp/static/js/runtime-main.cc6a468c.js",
+    "runtime-main.js.map": "/GifExpertApp/static/js/runtime-main.cc6a468c.js.map",
+    "static/js/2.056c045a.chunk.js": "/GifExpertApp/static/js/2.056c045a.chunk.js",
+    "static/js/2.056c045a.chunk.js.map": "/GifExpertApp/static/js/2.056c045a.chunk.js.map",
+    "index.html": "/GifExpertApp/index.html",
+    "static/css/main.fe793640.chunk.css.map": "/GifExpertApp/static/css/main.fe793640.chunk.css.map",
+    "static/js/2.056c045a.chunk.js.LICENSE.txt": "/GifExpertApp/static/js/2.056c045a.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.d999946b.js",
+    "static/js/runtime-main.cc6a468c.js",
     "static/js/2.056c045a.chunk.js",
     "static/css/main.fe793640.chunk.css",
-    "static/js/main.44ee2a68.chunk.js"
+    "static/js/main.9bf8c850.chunk.js"
   ]
 }
