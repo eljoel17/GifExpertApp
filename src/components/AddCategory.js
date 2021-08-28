@@ -14,7 +14,7 @@ export const AddCategory = ({setcategories}) => {
     const handleSumbit = (e)=>{
         e.preventDefault();
         if(inputValue.trim().length>2){
-            setcategories(categ=>[...categ, inputValue]);
+            setcategories(categ=> [inputValue, ...categ]);
             setInputValue('');
         }
      }

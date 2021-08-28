@@ -1,34 +1,35 @@
 
-import React from 'react'
+import React, { useState, useEffect } from 'react'
+import { getGifs } from '../helpers/getGifs';
+import { GifGridItem } from './GifGridItem';
 
 export const GifGrid = ({category}) => {
 
-    ///hacemos peticion http
-    const getGifs = async() =>{
-
-        const url = 'http://api.giphy.com/v1/gifs/search?q=dragon+ball&limit=10&api_key=dKCLxGlH18mHOazHBUlrXRQZX1Y4z2b3';
-        const resp = await fetch(url);
-        const {data} = await resp.json();
-
-        const gifs = data.map(img =>{
-            //de esa manera traemos los datos que solamente queremos
-            return{
-                id: img.id,
-                title: img.title,
-                url: img.images?.downsized_medium.url
-
-            }
+    const [images, setimages] = useState([]);
+     
+    //el useEffect sirva para poder disparar algo 1 sola vez
+    useEffect(()=>{
+      getGifs(category)
+        .then(imgs=>{
+            setimages(imgs);
         })
-        console.log(data);
 
-    }
-getGifs();
+    },[category])
+  
     return (
-        <div>
-            <h3>
-                {category}
-            </h3>
-            
+        <>
+        <h3>{category}</h3>
+        <div className="card-grid">
+   
+                {
+                    images.map( img => (
+                        <GifGridItem 
+                        key = {img.id}
+                        {...img}
+                        />))
+                    }
+   
         </div>
+      </>
     )
 }
