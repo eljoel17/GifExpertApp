@@ -2,7 +2,7 @@
   "name": "gif-expert-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://eljoel17.github.io/GifExpertApp",
+  "homepage": ".",
   
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
@@ -18,7 +18,8 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
-    "build": "react-scripts build && rm -rf docs && mv build docs",
+    "build": "react-scripts build",
+    "build-and-docs": "react-scripts build && node create-docs.js",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
